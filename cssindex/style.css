@@ -107,12 +107,26 @@ footer button{
     padding: 5px;
     color: white;
 }
-
+footer .center button{
+    vertical-align: middle;
+    background-color: transparent;
+    border: none;
+    
+    color: white;
+}
 footer button > i + div{
     margin-top: 5px;
 }
 
-
+footer .right {
+    background-color: #4A4A4A;
+    height: 100%;
+    padding: 5px;
+}
+footer .right button {
+    color: red;
+    font-size: 1em;
+}
 
 
 
